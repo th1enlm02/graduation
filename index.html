@@ -222,8 +222,8 @@
     </div>
     
     <audio id="backgroundMusic" loop>
-        <source src="https://www.bensound.com/bensound-music/bensound-happyrock.mp3" type="audio/mpeg">
-        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav">
+        <source src="https://raw.githubusercontent.com/th1enlm02/graduation/main/graduation.mp3" type="audio/mpeg">
+        <!-- <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/wav"> -->
     </audio>
 
     <div class="scene-indicator">
@@ -253,8 +253,8 @@
     <div id="scene-1" class="scene bg-gradient-secondary text-highlight">
         <div class="absolute inset-0 overflow-hidden">
             <div class="stars"></div>
-            <img src="https://raw.githubusercontent.com/th1enlm02/graduation/main/graduation-bg.jpg" 
-                 alt="Background" class="w-full h-full object-cover" style="opacity: 0.9;">
+            <img src="https://raw.githubusercontent.com/Chuc-Thien-DevOps-Final-Project/go-coffeshop/main/IMG_6494.jpg" 
+                 alt="Background" class="w-full h-full object-cover object-bottom" style="opacity: 0.7;">
         </div>
         <div class="p-8 relative z-10">
             <div class="max-w-xl mx-auto">
@@ -289,7 +289,6 @@
                     <a href="https://maps.google.com/?q=Trường+Đại+học+Công+nghệ+Thông+tin+DHQG+TPHCM" target="_blank" class="location-link text-xs">
                         📍 Hàn Thuyên, Thủ Đức
                     </a>
-                    <p class="text-secondary text-xs mt-2">📸 Chụp hình tại sân bóng chuyền</p>
                 </div>
 
                 <!-- Countdown -->
@@ -319,9 +318,9 @@
                 <div class="card-bg p-4 rounded-xl border border-blue mb-6 text-center">
                     <p class="font-bold text-primary text-sm mb-3">📞 LIÊN HỆ</p>
                     <div class="space-y-1">
-                        <a href="tel:+84352665200" class="location-link text-xs block">📱 0352.665.200</a>
-                        <a href="tel:+840357572373" class="location-link text-xs block">📱 0357.572.373</a>
-                        <a href="https://www.facebook.com/loveplane.duckweed1609/" target="_blank" class="location-link text-xs block">🔵 Facebook</a>
+                        <a href="tel:+84352665200" class="location-link text-xs block">📱 0925863785</a>
+                        <a href="tel:+84352665200" class="location-link text-xs block">📱 0344434147</a>
+                        <a href="https://www.facebook.com/th1enlm02/" target="_blank" class="location-link text-xs block">🔵 Facebook</a>
                     </div>
                 </div>
 
@@ -331,8 +330,9 @@
                         "Kỉ niệm sẽ là thứ duy nhất đi theo ta cả một đời dài - Đen Vâu"
                     </p> -->
                     <p class="text-xs italic text-secondary leading-relaxed">
-                        "Cảm ơn mọi người đã đồng hành cùng mình trong hành trình học tập. 
-                        Học hành vất vả bao năm, giờ chỉ chờ mỗi khoảnh khắc này để... chụp hình sống ảo! 📸 Mọi người nhớ ghé chung vui và chụp hình cùng   mình nhé! 😂"
+                        "Cảm ơn tất cả mọi người đã đồng hành cùng mình trong cuộc hành trình dài này!
+                        Để đứng được ở đây hôm nay, mình đã phải đi qua rất nhiều khó khăn và những ngày thật sự mệt mỏi. Có những lúc tưởng chừng như không vượt qua nổi, nhưng chính sự hiện diện của mọi người đã giúp mình bước tiếp.
+                        Mong mọi người cùng đến và chia sẻ giây phút đặc biệt này với mình nhé!"
                     </p>
                 </div>
             </div>
@@ -348,7 +348,7 @@
             const guestName = urlParams.get('name');
             if (guestName) {
                 document.getElementById('guest-name').textContent = guestName;
-                document.getElementById('page-title').textContent = `Thiệp Mời Tốt Nghiệp - ${guestName} - Trần Chức Thiện`;
+                document.getElementById('page-title').textContent = `Graduation Letter - ${guestName} - Lưu Minh Thiện`;
             }
         });
         
