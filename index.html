@@ -411,7 +411,7 @@
                 const music = document.getElementById('backgroundMusic');
                 const musicToggle = document.getElementById('musicToggle');
                 music.play().then(() => {
-                    musicToggle.textContent = '🔇';
+                    musicToggle.textContent = '🎵';
                     isPlaying = true;
                 }).catch(e => console.log('Music play failed:', e));
             }
@@ -507,11 +507,11 @@
         musicToggle.addEventListener('click', () => {
             if (isPlaying) {
                 music.pause();
-                musicToggle.textContent = '🎵';
+                musicToggle.textContent = '🔇';
                 isPlaying = false;
             } else {
                 music.play().catch(e => console.log('Audio play failed:', e));
-                musicToggle.textContent = '🔇';
+                musicToggle.textContent = '🎵';
                 isPlaying = true;
             }
         });
